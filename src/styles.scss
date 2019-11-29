@@ -4,4 +4,12 @@
 // $carbon--theme: $carbon--theme--g90;
 // $carbon--theme: $carbon--theme--g10;
 
+$feature-flags: (
+  grid-columns-16: true
+);
+
 @import "~carbon-components/scss/globals/scss/styles";
+
+.landing-page__r2 .bx--tabs__nav {
+  right: 0;
+}
